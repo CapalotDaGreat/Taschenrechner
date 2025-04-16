@@ -2,9 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Calculator</title>
+    <link rel="stylesheet" href="Beauty.css">
+    <script src="https://cdn.jsdelivr.net/npm/mathjs@11.8.0/lib/browser/math.min.js"></script>
 </head>
 <body>
-
+<div class="calculator-container">
+    <h1>Smart Calculator</h1>
+    <div class="input-container">
+        <textarea id="problem-input" placeholder="Enter your math problem here (e.g., '2^3 + 4 * sin(pi/4)' or 'derivative of x^2')"></textarea>
+        <button id="calculate-btn">Calculate</button>
+    </div>
+    <div class="output-container">
+        <div class="result-container">
+            <h2>Result:</h2>
+            <div id="result-output"></div>
+        </div>
+        <div class="explanation-container">
+            <h2>Explanation:</h2>
+            <div id="explanation-output"></div>
+        </div>
+    </div>
+</div>
+<script src="Function.js"></script>
 </body>
 </html>

@@ -1,0 +1,7 @@
+{
+  "name": "taschenrechner-root",
+  "private": true,
+  "devDependencies": {
+    "next": "15.4.7"
+  }
+}
